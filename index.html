@@ -15,7 +15,7 @@
   <script>
     var map = L.map('map').setView([26.6, -81.8], 10);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
-   fetch('https://raw.githubusercontent.com/JHogg/lee-county-map/main/properties.json')
+   fetch('https://raw.githubusercontent.com/DKSR1/lee-county-map/main/properties.json')
   .then(response => response.json())
   .then(data => {
     L.geoJSON(data).addTo(map);
