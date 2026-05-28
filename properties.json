@@ -1,0 +1,42 @@
+json
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"address": "123 Main St",
+"zipcode": "33904",
+"value": 250000
+},
+"geometry": {
+"type": "Point",
+"coordinates": [-81.87, 26.64]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"address": "456 Oak Ave",
+"zipcode": "33904",
+"value": 350000
+},
+"geometry": {
+"type": "Point",
+"coordinates": [-81.88, 26.65]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"address": "789 Pine Rd",
+"zipcode": "33905",
+"value": 420000
+},
+"geometry": {
+"type": "Point",
+"coordinates": [-81.86, 26.66]
+}
+}
+]
+}
